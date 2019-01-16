@@ -1,0 +1,12 @@
+name = Trademark
+description = Provides an input filter that can automatically wrap &trade;, &reg; and &copy; symbols with superscript HTML tags (&lt;sup&gt;).
+core = 7.x
+
+files[] = trademark.module
+
+; Information added by Drupal.org packaging script on 2016-11-18
+version = "7.x-1.3"
+core = "7.x"
+project = "trademark"
+datestamp = "1479503940"
+

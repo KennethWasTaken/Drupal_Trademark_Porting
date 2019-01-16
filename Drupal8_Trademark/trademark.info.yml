@@ -1,0 +1,8 @@
+name: Trademark
+description: 'Provides an input filter that can automatically wrap &trade;, &reg; and &copy; symbols with superscript HTML tags (&lt;sup&gt;).'
+type: module
+package: Custom
+core: 8.x
+configure: trademark.form
+
+
