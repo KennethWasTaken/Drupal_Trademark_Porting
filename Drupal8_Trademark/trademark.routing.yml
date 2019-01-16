@@ -1,22 +1,4 @@
-#Replaces hook_menu()
-#
-#/**
-# * Implements hook_menu().
-# */
-#function trademark_menu() {
-#    $menu = array(
-#        'admin/config/content/trademark' => array(
-#            'title' => 'Trademark',
-#            'description' => 'Automatically wrap &trade;, &reg; and &copy; symbols with superscript HTML tags (<code>&lt;sup&gt;</code>).',
-#            'page callback' => 'drupal_get_form',
-#            'page arguments' => array('trademark_admin_settings'),
-#            'access callback' => 'user_access',
-#            'access arguments' => array('administer trademark settings'),
-#            'type' => MENU_NORMAL_ITEM,
-#        ),
-#    );
-#    return $menu;
-#}
+##replaces hook_menu in 7 module
 
 trademark.test:
   path: /trademark/test

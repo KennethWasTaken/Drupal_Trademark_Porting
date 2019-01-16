@@ -1,0 +1,16 @@
+#/**
+# * Implements hook_permission(). (in .module)
+# */
+#function trademark_permission() {
+#    $permission = array(
+#        'administer trademark settings' => array(
+#            'title' => t('Administer Trademark Settings'),
+#            'description' => t('Perform administration configuration tasks for the Trademark module.'),
+#        ),
+#    );
+#    return $permission;
+#}
+
+administer trademark settings:
+  title: 'Administer Trademark Settings'
+  description: 'Perform administration configuration tasks for the Trademark module.'
