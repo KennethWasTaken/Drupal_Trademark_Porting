@@ -1,4 +1,0 @@
-<p>Normal: ™, ® and ©</p>
-
-<strong> With: <code>  &reg;   &trade;   &copy; </code></strong>
-<code>  &reg;   &trade;   &copy; </code>
