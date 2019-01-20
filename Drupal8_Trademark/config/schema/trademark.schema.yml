@@ -1,0 +1,19 @@
+trademark.settings:
+  type: config_object
+  label: 'Trademark settings'
+  mapping:
+    trademark:
+      type: mapping
+      mapping:
+        copyright:
+          type: checkbox
+          label: 'Wrap copyright &copy; symbols:'
+        registered:
+          type: checkbox
+          label: 'Wrap registered &reg; symbols:'
+        trademark:
+          type: checkbox
+          label: 'Wrap trademark &trade; symbols:'
+        node_tiles:
+          type: checkbox
+          label: 'Filter Node Title:'
